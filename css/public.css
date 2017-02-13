@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; }
+ul,ol{list-style:none; }
+body{color:#666; font-size:12px; font-family:"微软雅黑"; background:#FFF;}
+a{text-decoration:none; color:#666; }
+a:hover{color:#f29100; }
+
+/*头部样式*/
+.headerbg{background:#3e3b3b; width:100%; height:30px; }
+.header{width:1000px; height:30px; /*background:#00C472;*/ margin:0 auto; line-height:30px; }
+.header-l{width:320px; height:30px; float:left; }
+.header-l p{color:#999; float:left;}
+.header-l p span{ color:#f29100; font-size:14px;  }
+.header-l .qq,.header-l .weixin{float:left; height:30px; width:35px; background:url(../images/qq-h.png) no-repeat; margin:0 10px; opacity:0.5;}
+.header-l .weixin{background:url(../images/weixin-h.png) no-repeat ;margin:0 10px 0 -5px;}
+.header-r .reg{color:#f29100; }
+.header-r ul li a{color:#999;}
+.header-r ul li a:hover{color:#f29100; }
+.header-r{width:232px; height:30px; float:right; /*background:#74189C*/ }
+.header-r ul li{float:left; margin-left:10px; }
+/*导航样式*/
+.navbg{background:#FFF; width:100%; height:100px;  }
+.nav{width:1000px; height:78px; margin:0 auto; line-height:100px; padding-top:22px; background:#FFF; /*background:#61D2E0;*/ }
+.logo{width:380px; height:60px; float:left; padding-left:20px; cursor:pointer;}
+.nav-r{width:540px; height:50px; float:right; padding-top:28px; text-align:center; /*background:#06C764;*/  }
+.nav-r ul li{float:left; line-height:16px; margin-left:18px; }
+.nav-r ul li a{font-size:16px; color:#333; width:80px; height:50px; display:inline-block; }
+.nav-r ul li a.current{color:#f29100; }
+.nav-r ul li a:hover{color:#f29100; height:50px; display:inline-block; background:url(../images/nav-btn-selected_07.png) no-repeat center bottom; }
+/*底部样式*/
+.footerbg{width:100%; height:150px; background:#363636; }
+.footer{width:980px; height:150px; padding:0 10px; margin:0 auto; /*background:#F60;*/}
+.footer-l{width:620px; height:132px; float:left; /*background:#060;*/ padding-top:18px;}
+.footer-l .logo-footer{float:left; margin-right:20px; }
+.footer dl{float:left; width:120px; padding-top:10px;}
+.footer dt{height:40px; font-size:14px; color:#999;}
+.footer dd{height:24px;}
+.footer dd a{color:#999; background:url(../images/point-footer_03.png) no-repeat left center ; padding-left:6px }
+.footer dd a:hover{color:#FFF;}
+ /*底部联系*/
+ .footer-r{width:340px; height:150px; float:right; /*background:#060;*/}
+.service{float:left; margin-right:10px; color:#fff;}
+.service1{line-height:32px; }
+.service2{line-height:34px; font-size:30px; color:#ff7600;font-family:"微软雅黑"; }
+.service3{ line-height:20px;}
+.service3 span{ text-decoration:underline;}
+/*底部微信微博*/
+.media{float:left; margin-top:10px; }
+.media li{float:left; margin:0 20px; }
+.media li a{width:57px; padding-top:45px; background:url(../images/sprite.png) no-repeat; display:block; }
+.media .weibo{background:url(../images/sprite.png) no-repeat -210px 0px; }
+.media .weibo:hover{background-position: -303px 0; color:#FFF; }
+.media .wechat:hover{background-position: -105px 0; color:#FFF; }
+.footer-r .qrcode{margin-top:18px;}
+/*版权栏*/
+.copyrightbg{height:100px; wodth:100%; background:#1e1e1e; }
+.copyright{width:1000px; height:100px; margin:0 auto;}
+.copyright ul{width:630px; height:38px; padding:20px 0; margin:0 auto;}
+.copyright ul li{float:left; padding:0 10px;}
+.copyright p{ text-align:center;}

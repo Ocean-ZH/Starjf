@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+/*banner样式*/
+.banner{width:100%; height:320px; /* background:url(../images/banner1.png) no-repeat center top; */ background-color: #ccc; position:relative; overflow:hidden; }
+.banner ol{width:500%; position:absolute; background-color: #CCC; left:0; top:0; }
+.banner ol li{width: 20%; float:left; height:320px; overflow:hidden;  position: relative; z-index:2; }
+.banner ol img{position:absolute; left: 50%; margin-left: -960px; top: 0;}
+.banner span.left,.banner span.right{width: 50px; height: 100px; background-color:rgba(0,0,0,.5); position:absolute; top:110px; color:#ededed; text-align: center; line-height: 100px; font-size:40px; cursor: pointer; display:none; z-index:3; }
+.banner span.left{left:50%; margin-left: -560px;}
+.banner span.right{right:50%; margin-right: -560px;}
+
+.banner-center{width:1000px; height:320px; margin:0 auto; position:relative; }
+/*banner轮播控制样式*/
+.banner ul{ width:104px; height:14px; position:absolute; bottom:16px; left:50%; margin-left:-52px; z-index:9; }
+.banner ul li{ width:14px; height:14px; background:#fff; /*opacity:0.3;*/ background:rgba(255,255,255,0.3); float:left; margin-right:15px; border-radius:50%; cursor:pointer; }
+.banner ul li.nomargin{margin-right:0px; }
+.banner ul li.current{background:rgba(255,255,255,1); }
+.banner .bannerbtn3{ width:120px; height:34px; background:#f29100; border-radius:3px; position:absolute; left:10px; top:50%; margin-top:10px; text-align:center; line-height:34px; color:#FFF; font-size:18px; z-index:9; }
+/*banner注册框样式*/
+.register{width:260px; height:220px; background:rgba(0,0,0,0.5); position:absolute; top:50%; margin-top:-140px; right:0; text-align:center; padding-top:60px; color:#FFF; z-index:9;  }
+.register .text-1{height:70px; font-size:16px; }
+.register .text-1 span{font-size:36px; color:#f29100; }
+.register .text-2{height:56px;}
+.register .text-2 span{font-size:24px; color:#f29100;}
+.register .text-3{height:40px; width:200px; color:#FFF; background:#f29100; display:block; text-align:center; margin:0 auto; line-height:40px; border-radius:3px; font-family:"微软雅黑"; font-size:16px; }
+.register .text-3:hover{background:#FF6600; }
+.register .text-4{  width:200px; display:block; margin:0 auto; text-align:right; margin-top:10px; }
+.register .text-4-login{color:#0980dc;text-decoration:underline;}
+.register .text-4-login:hover{color:#ff6600;  }
+/*热点消息栏样式*/
+.hot_newsbg{width:100%; height:30px; background:#eee;}
+.hot_news{width:1000px; height:30px; margin:0 auto; line-height:30px; position:relative; overflow: hidden; }
+.hot_news .hot{background:url(../images/horn.png)no-repeat left center; width:40px; height:30px; float:left; }
+.hot_news p{float:left; display:none; position:absolute; top:24px; left:40px;}
+.hot_news p.current{display:block; top:0;}
+.hot_news p .red{color:#b22d00; }
+.hot_news .more{float:right;}
+/*实时数据*/
+.rtdata{width:1000px; height:100px; margin:0 auto; border-bottom:1px solid #eee;}
+.rtdata .title{width:150px; height:100px; float:left; background:#f29100; font-size:24px; color:#FFF; text-align:center; line-height:100px; margin-right:30px;}
+.rtdata .data1,.rtdata .data2,.rtdata .data3{width:199px; height:60px; border-right:1px solid #ccc; float:left; margin:15px 32px 0 0; background:url(../images/rtdata_03.png) no-repeat left center; padding:10px 0 0 50px; text-align:center; }
+.rtdata .data2{background:url(../images/rtdata_05.png) no-repeat left center;}
+.rtdata .data3{background:url(../images/rtdata_07.png) no-repeat left center; margin-right:0; padding-left:30px; border:none;}
+.rtdata dl dt{font-size:26px; color:#f29100;}
+.rtdata dl dt span{font-size:12px; }
+.rtdata dl dd{font-size:14px;}
+/*快速导航*/
+.fastnav{height:auto; width:1000px; /*background:#06f;*/ margin:24px auto; text-align:center; padding-top:10px; overflow:hidden;/*为了清除浮动与自动的盒子问题*/ }
+.fastnav-in{width:250px; height:auto; float:left; text-align:center; }
+.fastnav-in h3{ margin-top:8px; font-weight:normal; color:#333; font-size:16px; }
+.fastnav-in p{ width:180px; margin-top:4px; line-height:22px; margin:0 auto; }
+.fastnav-in img{transition:all .5s ease;}
+.fastnav-in img:hover{transform:scale(1.1); }
+/*星辰福利*/
+.activity{width:880px; height:118px; margin:0 auto; border:1px solid #eee; background:url(../images/activity-sign.png) no-repeat left top; padding:30px 30px 0 88px; position:relative; }
+
+.activity .buybtn{ width:100px; height:36px; background:#f29100; border-radius:3px; text-align:center; line-height:36px; color:#FFF; font-size:14px; position:absolute; right:30px; top:50%; margin-top:-18px; }
+.activity .buybtn:hover{background:#FF6600;}
+
+.activity ul li{float:left;}
+.activity .ubox1{height:60px;}
+.activity .t1-1{font:bold 18px "微软雅黑"; color:#333; margin-right:50px;}
+.activity .t1-2{font-size:16px; color:#333; margin-right:80px; }
+.activity .t1-3{width:180px; height:30px; border:1px solid #66b3ff; text-align:center; line-height:30px; color:#66b3ff; font-size:14px; }
+.activity .ubox2{font-size:14px; color:#999;}
+.activity .ubox2 span{font-size:36px; color:#f29100;}
+.activity .ubox2 .process{margin-left:74px; padding-top:22px; }
+.activity .ubox2 .processbar{width:150px; height:4px; display:inline-block; margin-bottom:3px; background:url(../images/processing.png) no-repeat;}
+
+/*投资项目*/
+.invest{width:1000px; height:auto; border:1px solid #ccc; margin:0 auto; margin-top:20px; }
+.invest-top{ margin-top:-1px; overflow:hidden; }/*蓝色状块快压到灰色分割线上,且由于高度未写（自动），而子盒子浮动，需要溢出隐藏防止下方盒子挤入*/
+.invest-top li{ width:100px; height:46px; float:left; line-height:46px; text-align:center; font-size:18px; font-family:"微软雅黑"; padding-top:3px; margin-right:20px; cursor: pointer; }
+.invest-top li.current{ border-top:4px solid #f29100; padding-top:0; color:#f29100;}
+.invest-top li.more{float:right; font-size:12px; color:#666; margin-right:10px; text-align:right; }
+/*表头*/
+.invest table{display:none;}
+.invest table.current{display:table;}
+.info{font-size:14px;}
+.info th{ height:60px; line-height:60px; font-weight:normal; background:#eee; }
+.info tr.current{background-color: #dfdfdf;}
+.th-first{ text-align:left; padding-left:20px;}
+/*表格内容*/
+.info td{ text-align:center; height:68px; border-bottom:1px solid #ccc; line-height:68px; }
+.info .one{ width:200px; text-align:left; background:url(../images/invest-car.png) no-repeat 20px center; padding-left:50px;}
+.info .two{}
+.info .two span{font-size:28px; color:#F29100; }
+.info .three{ }
+.info .four{ }
+.info .five{}
+.info .six{ width:120px; background:url(../images/invest-processbar_03.png) no-repeat center center;}
+.info .seven{ width:140px; position:relative; }
+.info .seven .buybtn{ width:100px; height:36px; background:#f29100; border-radius:3px; text-align:center; line-height:36px; color:#FFF; font-size:14px; display:inline-block; }
+.info .seven .buybtn:hover{background:#FF6600;}
+
+/*新闻*/
+.news{width:1000px; margin:0 auto; height:auto; overflow:hidden; margin-top:20px; border:1px solid #ccc; }
+.news h2{line-height:50px; font-size:22px; color:#333;  padding-left:10px; font-weight:normal; }
+.news-l{width:480px; height:auto; float:left; border-top:1px solid #ccc; }
+.news-r{width:0480px; height:auto; float:right; border-top:1px solid #ccc; }
+.news-l .title,.news-r .title{height:45px; border-bottom:1px solid #ccc; overflow:hidden; }
+.news-l h3,.news-r h3{width:98px; height:40px; font-size:16px; text-align:center; line-height:40px; border-top:3px solid #1470cc; color:#333; font-weight:normal; float:left; }
+.news-l .morenews,.news-r .morenews{float:right; padding-right:10px; line-height:40px; }
+.content{ margin-top:10px; background:#990;}
+.content li{ line-height:30px;  }
+.content li a{ background:url(../images/news-spot.jpg) no-repeat 10px center; padding-left:20px;}
+.content li a.red{background:url(../images/news-spot-1st.png) no-repeat 10px center;}
+.content .red{ color:#ff9100;}
+.content a{ float:left; color:#666; }
+.content span{ float:right; padding-right:10px; color:#999; }
+/*合作伙伴*/
+.company{width:1000px; height:160px; margin:0 auto; border-top:1px solid #ccc; margin-top:30px; }
+.company h3{ height:60px; font-size:22px; text-align:left; line-height:40px; font-weight:normal; color:#333; padding-left:10px; }
+.company .logos{height:50px; weight:1000px; margin:0 auto; position:relative;}
+.company ul{ width:980px; margin:0 auto;  }
+.company ul li{float:left; border:1px solid #ccc; margin-left:20px;  }
+.company .btn-l{position:absolute; left:0; top:16px; }
+.company .btn-r{position:absolute; right:0; top:16px; }

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.pagebanner{height:480px; background: url(../images/safetybanner.png) center center no-repeat; }
+.content-bg01{height:280px; background-color: #f7faff;  }
+.content-bg02{height:280px; background-color: #d9e6ef;}
+.content{height:280px; width:1100px; margin:0 auto; overflow:hidden; background:none;  }
+.content-icon01,.content-icon02{ float: left; width: 210px; height: 195px; background: url(../images/insurance_icon.png) 0 0 no-repeat; margin:50px 0 0 15px; }
+.content-text01,.content-text02{float: left; width: 845px; height: 230px; padding: 50px 0 0 30px; }
+.content-title01,.content-title02{width: 180px; height: 48px;  background: url(../images/insurance_icon.png) 0 -214px no-repeat; margin:10px 0 ; }
+.content-title02{float:right; background: url(../images/insurance_icon.png) -237px -217px no-repeat;}
+.content-text01 p,.content-text02 p{font-size: 18px; font-family: Microsoft Yahei; color: #525252; line-height: 32px; }
+.content-text02 p{float: right;}
+.content-icon02{float: right; background: url(../images/insurance_icon.png) -235px 0 no-repeat;}
+.content-icon03{background: url(../images/insurance_icon.png) -470px 0 no-repeat;}
+.content-title03{background: url(../images/insurance_icon.png) -465px -217px no-repeat;}
+.content-icon04{background: url(../images/insurance_icon.png) -705px 0 no-repeat;}
+.content-title04{background: url(../images/insurance_icon.png) -731px -213px no-repeat;}
+.content-icon05{background: url(../images/insurance_icon.png) -942px 0 no-repeat;}
+.content-title05{background: url(../images/insurance_icon.png) -955px -217px no-repeat;}
+.content-icon06{background: url(../images/insurance_icon.png) -1175px 0 no-repeat;}
+.content-title06{background: url(../images/insurance_icon.png) -1200px -213px no-repeat;}
+.content-icon07{background: url(../images/insurance_icon.png) -1415px 0 no-repeat;}
+.content-title07{background: url(../images/insurance_icon.png) -1435px -217px no-repeat;}
+.content-icon08{background: url(../images/insurance_icon.png) -1658px 0 no-repeat;}
+.content-title08{background: url(../images/insurance_icon.png) -1675px -213px no-repeat;}
